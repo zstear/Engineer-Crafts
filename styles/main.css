@@ -1,0 +1,119 @@
+/* This is the main css file Written by Zach Stear */
+
+/* Used in all pages */
+body {
+    margin: 0;
+    background-color: #ce9e67;
+}
+
+#header {
+    background-color: bisque;
+}
+
+#header h1 { 
+    margin: 0;
+    text-align: center;
+}
+
+#navigation {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #ce9e67;
+}
+
+#navigation li {
+    list-style-type: none;
+    float: left;
+}
+
+#navigation a{
+    font-weight: bold;
+    border-right: 2px solid black;
+    padding: 1px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#navigation ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: bisque;
+    border-top: 1px solid black;
+    min-width: 100%;
+}
+
+#footer a,p {
+    padding: 2px;
+    margin: 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+#footer a {
+    float: right;
+    padding: 1px 5px;
+    color: rgba(0, 57, 243, 0.685);
+}
+
+#footer p {
+    float: left;
+    padding: 1px 10px;
+}
+
+#main {
+    display: grid;
+}
+
+/* Home page */
+
+.content {
+    height: 30vh;
+}
+
+#left {
+    background-color: aqua;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#right {
+    background-color: red;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 62vh;
+}
+
+#images img {
+    padding: 9px;
+    height: 40%;
+}
+
+#images #main {
+    height: 83%;
+}
+
+#images #contact {
+    align-self: flex-end;
+}
+
+#images #events {
+    align-self: flex-end;
+}
+
+
+/* Products page */
+
