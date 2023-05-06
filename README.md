@@ -32,3 +32,16 @@ Website for a fake store for electronic hobbyist.
 ![EventsPage](https://user-images.githubusercontent.com/63836340/236602983-1f388b20-db22-4d7b-9d55-a5fbbeb08e6e.png)
 #### Mobile
 ![EventsPage_mobile](https://user-images.githubusercontent.com/63836340/236602986-e31c99c5-10c4-4f2b-af85-082044ba6974.png)
+
+## Plans
+- [ ] Change color palette
+- [ ] Finish home page
+- [ ] Finish products page
+- [ ] Finish crafts page
+- [ ] Finish contact page
+- [ ] Finish events page
+- [ ] Finish events landing pages
+- [ ] Add better images
+- [ ] Add video
+- [ ] Improve look of the pages
+- [ ] Test the website
